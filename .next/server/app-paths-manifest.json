@@ -1,0 +1,14 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/blog/[id]/page": "app/blog/[id]/page.js",
+  "/blog/page": "app/blog/page.js",
+  "/blog-list/page": "app/blog-list/page.js",
+  "/pricing/page": "app/pricing/page.js",
+  "/blog-details/page": "app/blog-details/page.js",
+  "/index/page": "app/index/index/page.js",
+  "/work-single/page": "app/work-single/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/services/page": "app/services/page.js",
+  "/page": "app/page.js",
+  "/work/page": "app/work/page.js"
+}
