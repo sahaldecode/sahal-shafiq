@@ -19,11 +19,64 @@ export default function Coporation2() {
 											<span className="text-linear-4 d-flex align-items-center"> Cooperation </span>
 										</div>
 										<h3 className="fw-medium">
-											More than +168 <span className="text-300">companies <br /></span> trusted <span className="text-300">worldwide_</span>
+											Trusted by <span className="text-300">20+ companies <br /></span> <span className="text-300">around the globe_</span>
 										</h3>
 										<div className="my-5 border border-1 rounded-2 p-3">
 											{/* Carausel Scroll */}
+											{/* Others Companies */}
+
 											<Marquee className="carouselTicker carouselTicker-left position-relative z-1">
+												<ul className="carouselTicker__list m-0">
+													{/* <li className="carouselTicker__item">
+														<img
+															src="assets/imgs/coporation/Bhfineart.svg"
+															alt="Logo 1"
+															width={210}
+															height={29}
+															style={{ objectFit: "cover" }}
+														/>
+													</li> */}
+													<li className="carouselTicker__item">
+														<img
+															src="assets/imgs/coporation/localgrow360.png"
+															alt="Logo 1"
+															width={210}
+															height={75}
+															style={{ objectFit: "fill", alignItems: "center"  }}
+														/>
+													</li>
+													<li className="carouselTicker__item">
+														<img
+															src="assets/imgs/coporation/Bhfineart.svg"
+															alt="bhfineart"
+															width={210}
+															height={29}
+															style={{ objectFit: "fill",  alignItems: "center" }}
+														/>
+													</li>
+													<li className="carouselTicker__item" style={{display: "flex", alignItems: "center", justifyContent: "center" }}>
+														<img
+															src="assets/imgs/coporation/jacksonerowe.svg"
+															alt="jacksone"
+															width={210}
+															height={29}
+															style={{ objectFit: "fill"}}
+														/>
+													</li>
+													<li className="carouselTicker__item">
+														<img
+															src="assets/imgs/coporation/calidus.png"
+															alt="calidus"
+															width={240}
+															height={50}
+															style={{ objectFit: "fill",  alignItems: "center" }}
+														/>
+													</li>
+
+												</ul>
+											</Marquee>
+
+											{/* <Marquee className="carouselTicker carouselTicker-left position-relative z-1">
 												<ul className="carouselTicker__list m-0">
 													<li className="carouselTicker__item">
 														<svg xmlns="http://www.w3.org/2000/svg" width={70} height={29} viewBox="0 0 70 29" fill="none">
@@ -68,8 +121,8 @@ export default function Coporation2() {
 														</svg>
 													</li>
 												</ul>
-											</Marquee>
-											<Marquee className="carouselTicker carouselTicker-right position-relative z-1" direction="right">
+											</Marquee> */}
+											{/* <Marquee className="carouselTicker carouselTicker-right position-relative z-1" direction="right">
 												<ul className="carouselTicker__list m-0">
 													<li className="carouselTicker__item">
 														<svg xmlns="http://www.w3.org/2000/svg" width={94} height={28} viewBox="0 0 94 28" fill="none">
@@ -115,7 +168,7 @@ export default function Coporation2() {
 														</svg>
 													</li>
 												</ul>
-											</Marquee>
+											</Marquee> */}
 										</div>
 										<div className="d-flex flex-column flex-md-row align-items-center gap-3">
 											<div>
@@ -131,18 +184,18 @@ export default function Coporation2() {
 												</div>
 											</div>
 											<div className="d-flex flex-column gap-2">
-												<Link href="#">
+												{/* <Link href="#">
 													<i className="ri-skype-fill" />
-													<span className="text-300">[skype] <span className="text-secondary-2">james.dev</span></span>
-												</Link>
-												<Link href="#">
+													<span className="text-300">[Google Meet] <span className="text-secondary-2">sahal.dev</span></span>
+												</Link> */}
+												<a href="https://wa.me/923057735104">
 													<i className="ri-phone-fill" />
-													<span className="text-300">[phone] <span className="text-secondary-2">+1-234-567-8901</span></span>
-												</Link>
-												<Link href="#">
+													<span className="text-300">[phone] <span className="text-secondary-2">+92 3057735104</span></span>
+												</a>
+												<a href="mailto:sahaldecode@gmail.com">
 													<i className="ri-mail-fill" />
-													<span className="text-300">[email] <span className="text-secondary-2">contact@james.dev</span></span>
-												</Link>
+													<span className="text-300">[email] <span className="text-secondary-2">sahaldecode@gmail.com</span></span>
+												</a>
 											</div>
 										</div>
 									</div>
@@ -170,38 +223,38 @@ export default function Coporation2() {
 									<svg className="text-primary-2 me-2" xmlns="http://www.w3.org/2000/svg" width={5} height={6} viewBox="0 0 5 6" fill="none">
 										<circle cx="2.5" cy={3} r="2.5" fill="#A8FF53" />
 									</svg>
-									<span className="text-linear-4 d-flex align-items-center"> Git Journaling </span>
+									<span className="text-linear-4 d-flex align-items-center"> Development Project </span>
 								</div>
 								<div className="h-100 position-relative">
 									<ul className="ps-3 d-flex flex-column justify-content-around h-100 position-relative">
 										<li className="position-relative z-1">
 											<div className="d-flex align-items-center gap-2">
-												<p className="text-300 text-nowrap">15 Jul:</p>
-												<span className="text-dark">Muzzilla-streaming-API-services-for-Python</span>
+												<p className="text-300 text-nowrap">21 Mar:</p>
+												<span className="text-dark" style={{fontSize: "14px"}}>GadgetVibe – E-commerce Platform for Smart Devices</span>
 											</div>
 										</li>
 										<li className="position-relative z-1">
 											<div className="d-flex align-items-center gap-2">
-												<p className="text-300 text-nowrap">30 Jun:</p>
-												<span className="text-dark">ChatHub-Chat-application-VueJs-Mongodb</span>
+												<p className="text-300 text-nowrap">09 Feb:</p>
+												<span className="text-dark" style={{fontSize: "14px"}}>ExploreHowTo – How-to Tutorial Website for global Blog</span>
 											</div>
 										</li>
 										<li className="position-relative z-1">
 											<div className="d-flex align-items-center gap-2">
-												<p className="text-300 text-nowrap">26 May:</p>
-												<span className="text-dark">DineEasy-coffee-tea-reservation-system</span>
+												<p className="text-300 text-nowrap">14 Jan:</p>
+												<span className="text-dark" style={{fontSize: "14px"}}>CodeNiche – PHP Snippet Library for WordPress</span>
 											</div>
 										</li>
 										<li className="position-relative z-1">
 											<div className="d-flex align-items-center gap-2">
-												<p className="text-300 text-nowrap">17 Apr:</p>
-												<span className="text-dark">FinanceBuddy-Personal-finance-tracker</span>
+												<p className="text-300 text-nowrap">30 Dec:</p>
+												<span className="text-dark" style={{fontSize: "14px"}}>HomeOpen – Property Listings with Custom Features</span>
 											</div>
 										</li>
 										<li className="position-relative z-1">
 											<div className="d-flex align-items-center gap-2">
-												<p className="text-300 text-nowrap">05 Mar:</p>
-												<span className="text-dark">TuneStream-Music-streaming-service-API</span>
+												<p className="text-300 text-nowrap">25 Oct::</p>
+												<span className="text-dark"  style={{fontSize: "14px"}}>TuneStream – Music Streaming Platform using thirdPart Api</span>
 											</div>
 										</li>
 									</ul>

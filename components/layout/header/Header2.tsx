@@ -14,9 +14,9 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu,isOffCa
 								<i className="ri-menu-2-line" />
 							</a>
 							<div className="container py-3 px-4">
-								<Link className="navbar-brand d-flex main-logo align-items-center" href="/index-2">
-									<img src="assets/imgs/home-page-2/template/favicon.svg" alt="Sahal" />
-									<span className="fs-4 ms-2">sahaldecode.dev</span>
+								<Link className="navbar-brand d-flex main-logo align-items-center" href="/">
+									<img src="assets/imgs/home-page/template/favicon.svg" alt="Sahal" />
+									<span className="fs-4 ms-2">sahal.dev</span>
 								</Link>
 								<div className="d-none d-lg-flex">
 									<div className="collapse navbar-collapse" id="navbarSupportedContent">
@@ -44,18 +44,21 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu,isOffCa
 								</div>
 								<div className="navbar-social d-flex align-items-center pe-5 pe-lg-0 me-5 me-lg-0">
 									<div className="d-md-flex d-none gap-3">
-										<Link href="/http://facebook.com">
+										<a href="https://www.facebook.com/prosahaldecode/" target='_blank'>
 											<i className="ri-facebook-circle-fill fs-18" />
-										</Link>
-										<Link href="/http://twitter.com">
-											<i className="ri-twitter-x-fill fs-18" />
-										</Link>
-										<Link href="/https://www.linkedin.com/in/sahalshafiqkhan/">
+										</a>
+										<a href="https://www.instagram.com/sahaldecode/" target='_blank'>
+											<i className="ri-instagram-fill fs-18" />
+										</a>
+										<a href="https://www.tiktok.com/@sahaldecode/" target='_blank'>
+											<i className="ri-tiktok-fill fs-18" />
+										</a>
+										<a href="https://www.linkedin.com/in/sahalshafiqkhan/" target='_blank'>
 											<i className="ri-linkedin-fill fs-18" />
-										</Link>
-										<Link href="/github.com/sahaldecode">
+										</a>
+										<a href="https://github.com/sahaldecode" target='_blank'>
 											<i className="ri-github-fill fs-18" />
-										</Link>
+										</a>
 									</div>
 									<div className="burger-icon burger-icon-white border rounded-3" onClick={handleMobileMenu}>
 										<span className="burger-icon-top" />

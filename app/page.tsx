@@ -20,7 +20,7 @@ export default function Home() {
 				<Static2 />
 				<Coporation2/>
 				<Service2 />
-				<Experience2/>
+				{/* <Experience2/> */}
 				<Education2/>
 				<Projects2 />
 				<Skills2 />

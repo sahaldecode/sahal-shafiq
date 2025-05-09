@@ -28,7 +28,7 @@ export default function Projects2() {
 	return (
 		<>
 
-			<div className="section-projects-2 pt-5">
+			<div id='portfolio' className="section-projects-2 pt-5">
 				<div className="container">
 					<div className="rounded-3 border border-1 position-relative overflow-hidden">
 						<div className="box-linear-animation position-relative z-1">
@@ -47,7 +47,7 @@ export default function Projects2() {
 												<div className="p-lg-5 p-md-4 p-3 border border-1 mt-5 bg-3">
 													<div className="row">
 														<div className="col-lg-5">
-															<img className="w-100" src="assets/imgs/home-page-2/projects/img-1.png" alt="zelio" />
+															<img className="w-100" src="assets/imgs/home-page/projects/img-1.png" alt="sahal" />
 														</div>
 														<div className="col-lg-7 ps-lg-5 mt-5 mt-lg-0">
 															<h4 className="text-linear-4">
@@ -98,7 +98,7 @@ export default function Projects2() {
 												<div className="p-lg-5 p-md-4 p-3 border border-1 mt-5 bg-3">
 													<div className="row">
 														<div className="col-lg-5">
-															<img className="w-100" src="assets/imgs/home-page-2/projects/img-1.png" alt="zelio" />
+															<img className="w-100" src="assets/imgs/home-page/projects/img-1.png" alt="sahal" />
 														</div>
 														<div className="col-lg-7 ps-lg-5 mt-5 mt-lg-0">
 															<h4 className="text-linear-4">
@@ -161,7 +161,7 @@ export default function Projects2() {
 									</div>
 								</div>
 							</div>
-							<img className="position-absolute top-0 start-0 z-0" src="assets/imgs/home-page-2/projects/bg.png" alt="zelio" />
+							<img className="position-absolute top-0 start-0 z-0" src="assets/imgs/home-page/projects/bg.png" alt="sahal" />
 						</div>
 					</div>
 				</div>

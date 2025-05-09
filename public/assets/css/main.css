@@ -908,7 +908,7 @@ img {
   visibility: hidden;
   transform: translateY(0.75rem);
   transition: all 0.2s linear, margin-right 0s;
-  background-color: #6e4ef2;
+  background-color: var(--tc-theme-dark-primary-2);
 }
 .btn-scroll-top:after {
   position: absolute;
@@ -917,7 +917,7 @@ img {
   text-align: center;
   line-height: 3rem;
   font-size: 1.5rem;
-  color: #ffffff;
+  color: #000000;
   left: 0;
   top: 0;
   height: 3rem;
@@ -2674,7 +2674,7 @@ textarea {
   padding-bottom: 0;
 }
 .mobile-header-wrapper-style .mobile-header-wrapper-inner .mobile-header-content-area .mobile-menu-wrap nav .mobile-menu li:hover > a {
-  color: #6e4ef2;
+  color: #62a92b;
   padding-left: 3px;
   transition-duration: 0.2s;
 }
@@ -2854,7 +2854,7 @@ textarea {
 .offCanvas__close-icon button {
   background: transparent;
   border: 0 none;
-  color: #6e4ef2;
+  color: #62a92b;
   cursor: pointer;
   font-size: 20px;
   padding: 0;
@@ -2863,7 +2863,7 @@ textarea {
   max-height: 34px;
 }
 .offCanvas__side-info {
-  border-top: 1px solid #6e4ef2;
+  border-top: 1px solid #62a92b;
   padding-top: 25px;
 }
 .offCanvas__side-info .contact-list h4 {
@@ -3008,7 +3008,7 @@ textarea {
 }
 .navbar .navbar-nav .nav-item .nav-link {
   font-size: 1rem;
-  color: #1f1f24;
+  color: #62a92b;
   font-weight: 500;
   padding: 0.5rem 1rem;
   border-radius: 0.25rem;
@@ -3028,10 +3028,10 @@ textarea {
   box-shadow: none;
 }
 .navbar .navbar-nav .nav-item .nav-link:hover {
-  color: #6e4ef2;
+  color: #62a92b;
 }
 .navbar .navbar-nav .nav-item .nav-link.active {
-  color: #6e4ef2;
+  color: #4c9905;
 }
 .navbar.navbar-home-2 {
   position: absolute !important;
@@ -3890,7 +3890,7 @@ textarea.form-control {
 }
 
 .button-project .ellipse {
-  background-image: url(../imgs/projects/projects-1/elipse.png);
+  background-image: url(../imgs/projects/projects/elipse.png);
 }
 
 .fillter-project {
@@ -14076,7 +14076,7 @@ strong {
   transition: all 0.3s ease;
 }
 .section-skills-2 .carouselTicker__item .tool-tip::before {
-  content: url(../imgs/home-page-2/template/down.svg);
+  content: url(../imgs/home-page/template/down.svg);
   position: absolute;
   bottom: -14px;
   left: 30%;

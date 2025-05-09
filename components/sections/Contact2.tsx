@@ -49,7 +49,7 @@ export default function Contact2() {
 								</div>
 								<div className="ps-3 h-100">
 									<span className="text-400 fs-6">Phone Number</span>
-									<h6 className="mb-0">+1-234-567-8901</h6>
+									<h6 className="mb-0">+92-305-7735104</h6>
 								</div>
 								<a href="tel:+1-234-567-8901" className="position-absolute top-0 start-0 w-100 h-100" />
 							</div>
@@ -61,21 +61,22 @@ export default function Contact2() {
 								</div>
 								<div className="ps-3 h-100">
 									<span className="text-400 fs-6">Email</span>
-									<h6 className="mb-0">contact@william.design</h6>
+									<h6 className="mb-0">sahaldecode@gmail.com</h6>
 								</div>
 								<a href="mailto:someone@example.com" className="position-absolute top-0 start-0 w-100 h-100" />
 							</div>
 							<div className="d-flex align-items-center mb-3 position-relative d-inline-flex">
 								<div className="d-inline-block">
 									<div className="icon-flip flex-nowrap icon-shape icon-xxl border border-1 rounded-3 bg-3">
-										<i className="ri-skype-fill text-primary-2 fs-26" />
+										{/* <i className="ri-microsoft-teams text-primary-2 fs-26" /> */}
+										<img className="text-primary-2 fs-26" style={{ filter: "hue-rotate(150deg)" }}  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAACp0lEQVR4nO2YzWsTQRjGpx9JacFqLiGrKBRroeBFQhUv1g+KO6M9SfUPMAc122BFz970pOBJBW/tDNo/oIiigsSkXjSmIAh+QKP1oCi1gk1t9pFpql1CNtkmm2bAeeCBkP2Y5zfzvjMkhGhpaWmVaspEh2BIcIppwfBTevXzqLxGVNbkMWzjFBnBgLKmeCnvISpqykRHxfAOCCVXQjAkqoZfNaewSp8f2vR+XzSY/djbkrKlo4Hs3JGuD+bGAVA89wogGNKl4fta03YPScJp+Z28tiEAnGHB8wowLDiflTNfGv6vo8GZnHIAgmHe+awsGTeAXS0pW/kS6lUCgGG01iaOBrJz7iWUnfUcwjKAWn3OKBQGOjNLzsFdz4IRBJ3jyt3GrYnN7tmBDQGQjoXz2BN8UXAFqHCQDa1sozM5WTLScubXFd4PAOm4YWN486flvV2ZRdnYK81NkZJlUzrzvssPAKf9T/g/AlzcCbx7UNnyHmUBxnqAR9eKfnx9LfS9q99x90rR/Z3psltgte20x3Hv6fDi77pXtNoLEtvXAHrbn5UNXStALJyvvyQ1ANErAF1Clm7ipN6FrEZto05XOwMacA7YygH0B6a9A0TwVTmAA1terQfgvnIA53d/9g6wFad8Behrc/8h7hVggtoYDBVX4Uxk2XWseAQPLxO0Ej/l6W9ED751OI+DoZnlCuGfnt2BkK/hVwFu+AEgGDB+tJC0DFhWBKm4gfm4gR/xCJJxA7ERgjbSCE0wHPILQDAkSDMkGJJ1h6f4Mm6iuykA/Dj2C4alegA4Rawp4f9BUFyoY/bvEBXEGS5xBntdM89wc3KkQQ1aa1Nzhjcewuc4xQmiop4Mop2bGOYMnFO8Fgy/BMU3zvCWUwjBcPJ2FIFm59TS0iJq6A8+GhhzushK6QAAAABJRU5ErkJggg==" alt="microsoft-teams"></img>
 									</div>
 								</div>
 								<div className="ps-3 h-100">
-									<span className="text-400 fs-6">Skype</span>
-									<h6 className="mb-0">WilliamDesignUX</h6>
+									<span className="text-400 fs-6">Microsoft Team</span>
+									<h6 className="mb-0">Sahal Shafiq</h6>
 								</div>
-								<a href="skype:SKYPENAME?add" className="position-absolute top-0 start-0 w-100 h-100" />
+								<a href="#" className="position-absolute top-0 start-0 w-100 h-100" />
 							</div>
 							<div className="d-flex align-items-center mb-3 position-relative d-inline-flex">
 								<div className="d-inline-block">
@@ -85,9 +86,9 @@ export default function Contact2() {
 								</div>
 								<div className="ps-3 h-100">
 									<span className="text-400 fs-6">Address</span>
-									<h6 className="mb-0">0811 Erdman Prairie, Joaville CA</h6>
+									<h6 className="mb-0">Officer Colony, Punjab, Pakistan</h6>
 								</div>
-								<a href="https://maps.google.com/maps?q=1st+avenue,New+York" className="position-absolute top-0 start-0 w-100 h-100" />
+								{/* <a href="https://maps.google.com/maps?q=1st+avenue,New+York" className="position-absolute top-0 start-0 w-100 h-100" /> */}
 							</div>
 						</div>
 					</div>
