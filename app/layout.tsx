@@ -28,8 +28,8 @@ const dmMono = DM_Mono({
 })
 
 export const metadata: Metadata = {
-	title: "Zelio - Personal Portfolio Template",
-	description: "Zelio - Personal Portfolio Template",
+	title: "Sahal Shafiq - Full Stack Web Develper, AI Custom ChatBot",
+	description: "Unlock the Secrets of Sahal Shafiq's Stunning Web Development Portfolio! Explore Innovation in Every Click. See the Magic in 150+ Projects. Click Now!",
 }
 
 export default function RootLayout({
