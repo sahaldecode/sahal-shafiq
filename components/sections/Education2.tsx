@@ -20,32 +20,32 @@ export default function Education2() {
 										<ul className="ps-3">
 											<li className="position-relative z-1 mb-3">
 												<div className="d-flex gap-2">
-													<p className="text-300 text-nowrap fw-regular mb-0">2020-2024:</p>
+													<p className="text-300 text-nowrap fw-regular mb-0">Jan 2023 – Present:</p>
 													<div>
-														<span className="text-primary-2">MIT</span>
-														<p className="text-dark">Bachelor’s Degree in Computer Science</p>
+														<span className="text-primary-2">Virtual University of Pakistan</span>
+														<p className="text-dark">Bachelor of Software Engineering (Final Year)</p>
 													</div>
 												</div>
 											</li>
 											<li className="position-relative z-1 mb-3">
 												<div className="d-flex gap-2">
-													<p className="text-300 text-nowrap fw-regular mb-0">2018-2019:</p>
+													<p className="text-300 text-nowrap fw-regular mb-0">2018 – 2019:</p>
 													<div>
-														<span className="text-primary-2">Harvard University</span>
-														<p className="text-dark">Certification in React and Redux, Node.js Developer Course</p>
+														<span className="text-primary-2">Udemy</span>
+														<p className="text-dark">Diploma in Web Development WIth Covered HTML, CSS, JavaScript, WordPress, and basic React fundamentals</p>
 													</div>
 												</div>
 											</li>
 											<li className="position-relative z-1 mb-3">
 												<div className="d-flex gap-2">
-													<p className="text-300 text-nowrap fw-regular mb-0">2015-2016:</p>
+													<p className="text-300 text-nowrap fw-regular mb-0">2018 – 2019:</p>
 													<div>
-														<span className="text-primary-2">Stanford University</span>
-														<p className="text-dark">Certification in Full Stack Web Development</p>
+														<span className="text-primary-2">Learn Skills</span>
+														<p className="text-dark">WordPress Development, MERN Stack (MongoDB, Express.js, React.js, Node.js), Custom Theme & Plugin Development, RESTful APIs, Git & GitHub, Elementor, Woo Commerce,Responsive Web Design.</p>
 													</div>
 												</div>
 											</li>
-											<li className="position-relative z-1 mb-3">
+											{/* <li className="position-relative z-1 mb-3">
 												<div className="d-flex gap-2">
 													<p className="text-300 text-nowrap fw-regular mb-0">2013-2015:</p>
 													<div>
@@ -53,8 +53,8 @@ export default function Education2() {
 														<p className="text-dark">Certification in React and Redux, Node.js Developer Course</p>
 													</div>
 												</div>
-											</li>
-										</ul>
+											</li>*/}
+										</ul> 
 										<div className="line-left position-absolute top-0 border-start z-0" />
 									</div>
 									<div className="bg-overlay position-absolute bottom-0 start-0 z-1" />
