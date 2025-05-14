@@ -11,7 +11,7 @@ export default function Static2() {
 						<div className="inner">
 							<div className="row align-items-center justify-content-lg-around justify-content-center">
 								<div className="col-lg-auto col-md-6 text-center text-lg-start">
-									<div className="counter-item-cover counter-item">
+									<div className="counter-item-cover counter-item" style={{ marginBottom: '20px' }}>
 										<div className="content mx-auto">
 											<i className="ri-shape-line text-primary-2" />
 											<h2 className="text-300 my-0 fs-50">
@@ -23,7 +23,7 @@ export default function Static2() {
 									</div>
 								</div>
 								<div className="col-lg-auto col-md-6 text-center text-lg-start">
-									<div className="counter-item-cover counter-item">
+									<div className="counter-item-cover counter-item" style={{ marginBottom: '20px' }}>
 										<div className="content mx-auto">
 											<i className="ri-computer-line text-primary-2" />
 											<h2 className="text-300 my-0 fs-50">
@@ -35,7 +35,7 @@ export default function Static2() {
 									</div>
 								</div>
 								<div className="col-lg-auto col-md-6 text-center text-lg-start">
-									<div className="counter-item-cover counter-item">
+									<div className="counter-item-cover counter-item"  style={{ marginBottom: '20px' }}>
 										<div className="content mx-auto">
 											<i className="ri-service-line text-primary-2" />
 											<h2 className="text-300 my-0 fs-50">
