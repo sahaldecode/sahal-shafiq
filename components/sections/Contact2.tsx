@@ -15,7 +15,7 @@ export default function Contact2() {
 							<div className="position-relative">
 								<div className="position-relative z-2">
 									<h3 className="text-primary-2 mb-3">Let’s connect</h3>
-									<form action="https://formsubmit.co/sahaldecode@gmail.com" method="post">
+									<form action="https://formsubmit.co/0023b8ab2d42e5a2b730bfdf249532b9" method="post">
 										<div className="row g-3">
 											<div className="col-md-6 ">
 												<input type="text" className="form-control bg-3 border border-1 rounded-3" id="name" name="name" placeholder="Your name" aria-label="username"    / >
