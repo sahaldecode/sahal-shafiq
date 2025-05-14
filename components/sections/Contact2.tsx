@@ -55,7 +55,7 @@ export default function Contact2() {
 									<span className="text-400 fs-6">Phone Number</span>
 									<h6 className="mb-0">+92-305-7735104</h6>
 								</div>
-								<a href="tel:+1-234-567-8901" className="position-absolute top-0 start-0 w-100 h-100" />
+								<a href="https://wa.me/923057735104" className="position-absolute top-0 start-0 w-100 h-100" />
 							</div>
 							<div className="d-flex align-items-center mb-3 position-relative d-inline-flex">
 								<div className="d-inline-block">
@@ -67,7 +67,7 @@ export default function Contact2() {
 									<span className="text-400 fs-6">Email</span>
 									<h6 className="mb-0">sahaldecode@gmail.com</h6>
 								</div>
-								<a href="mailto:someone@example.com" className="position-absolute top-0 start-0 w-100 h-100" />
+								<a href="mailto:sahaldecode@gmail.com" className="position-absolute top-0 start-0 w-100 h-100" />
 							</div>
 							<div className="d-flex align-items-center mb-3 position-relative d-inline-flex">
 								<div className="d-inline-block">
